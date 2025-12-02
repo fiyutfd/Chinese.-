@@ -386,3 +386,14 @@ Button(Tab2, "动作脚本", function()
    loadstring(game:HttpGet("https://arch-http.vercel.app/files/LIMITED EMOTE HUB (75-100) BY MIYKO"))()
 end)
 
+Tab8:Paragraph({
+    Title = "1.3.1.1",
+    Desc = [[脚本进行了维护最强添加一功能]],
+    Image = "eye",
+    ImageSize = 24,
+    Color = Color3.fromHex("#FFFFFF"),
+    BackgroundTransparency = 1,
+    OutlineColor = Color3.fromHex("#FFFFFF"),
+    OutlineThickness = 1,
+    Padding = UDim.new(0, 1)
+})
