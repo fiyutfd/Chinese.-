@@ -378,10 +378,11 @@ Tab8:Paragraph({
     Padding = UDim.new(0, 1)
 })
 
-Button(Tab2, "大功能提升 (必须用致命忍者)", function() 
+Button(Tab2, "大功能提升 (用致命忍者)", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SIONELTNAMATLASIA.lua"))()
 end)
 
 Button(Tab2, "动作脚本", function() 
    loadstring(game:HttpGet("https://arch-http.vercel.app/files/LIMITED EMOTE HUB (75-100) BY MIYKO"))()
 end)
+
