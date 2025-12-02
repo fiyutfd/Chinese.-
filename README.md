@@ -26,7 +26,7 @@ local Window = WindUI:CreateWindow({
 })
 
 Window:EditOpenButton({
-    Title = "缝合scripttop",
+    Title = "打开Chinese v1",
     Icon = "monitor",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
@@ -59,12 +59,12 @@ end
 
 local Taba = Tab("公告")
 local Tab1 = Tab("通用")
-local Tab2 = Tab("最强的战场")
-local Tab3 = Tab("死铁轨")
-local Tab5 = Tab("客户端")
-local Tab6 = Tab("各大脚本中心")
 local Tab7 = Tab("傻逼黑名单")
+local Tab6 = Tab("各大脚本中心")
 local Tab8 = Tab("更新")
+local Tab2 = Tab("最强的战场")
+local Tab5 = Tab("客户端")
+local Tab3 = Tab("死铁轨")
 local Tab9 = Tab("自然灾害")
 local Tab10 = Tab("99页")
 local Tab11 = Tab("Ohio")
@@ -290,10 +290,6 @@ Button(Tab2, "火车头", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/ATrainSounds/refs/heads/main/ATrain.lua"))()
 end)
 
-Button(Tab10, "虚空", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/99%E5%A4%9C%E8%99%9A%E7%A9%BA.txt"))()
-end)
-
 Button(Tab10, "DARK (需要进DC)", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/DARK.lua"))()
 end)
@@ -331,7 +327,7 @@ Button(Tab1, "踏空行走", function()
 end)
 
 Button(Tab6, "皮空脚本", function() 
-    loadstring(game:HttpGet("https://raw.githubuusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
 end)
 
 Button(Tab6, "皮空脚本二", function() 
@@ -381,3 +377,7 @@ Tab8:Paragraph({
     OutlineThickness = 1,
     Padding = UDim.new(0, 1)
 })
+
+Button(Tab2, "大功能提升 (必须用致命忍者)", function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SIONELTNAMATLASIA.lua"))()
+end)
