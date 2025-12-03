@@ -329,14 +329,6 @@ Button(Tab6, "皮空脚本二", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/c43cc7847ac9846287fad439930ac41b2d65dbe0/%E7%9A%AE%E7%A9%BA%E8%84%9A%E6%9C%AC(%E4%BA%8C)"))()
 end)
 
-Button(Tab6, "皮空脚本", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
-end)
-
-Button(Tab6, "皮空脚本二", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/c43cc7847ac9846287fad439930ac41b2d65dbe0/%E7%9A%AE%E7%A9%BA%E8%84%9A%E6%9C%AC(%E4%BA%8C)"))()
-end)
-
 Button(Tab10, "op级99夜(中文)", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/99Nights"))()
 end)
@@ -393,9 +385,16 @@ Tab8:Paragraph({
     Padding = UDim.new(0, 1)
 })
 
-Tab12:Paragraph({
-    Title = "等待",
-    Desc = [[等待]],
+Button(Tab12, "不知道 [英文]", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/who-else123/my-scripts/refs/heads/main/Syncsaken/main.lua"))()
+end)
+
+Button(Tab12, "Fartsaken [需要卡密]", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/Fartsaken.txt"))()
+end)
+Tab8:Paragraph({
+    Title = "1.4.1",
+    Desc = [[脚本进行了维护添加被遗弃]],
     Image = "eye",
     ImageSize = 24,
     Color = Color3.fromHex("#FFFFFF"),
@@ -405,7 +404,6 @@ Tab12:Paragraph({
     Padding = UDim.new(0, 1)
 })
 
-Button(Tab6, "NOL [破解]", function（） 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Syndromehsh/BETA2/refs/heads/main/NOL"))()
+Button(Tab6, "NOL", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Syndromehsh/BETA2/refs/heads/main/NOL"))()
 end)
