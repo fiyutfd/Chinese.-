@@ -68,6 +68,7 @@ local Tab3 = Tab("死铁轨")
 local Tab9 = Tab("自然灾害")
 local Tab10 = Tab("99页")
 local Tab11 = Tab("Ohio")
+local Tab12 = Tab("被遗弃")
 
 Taba:Paragraph({
     Title = "当前用户：",
@@ -141,13 +142,7 @@ Taba:Paragraph({
 Taba:Paragraph({
     Title = "禁止二创",
     Desc = [[ ]],
-    Image = "eye",
-    ImageSize = 24,
-    Color = Color3.fromHex("#FFFFFF"),
-    BackgroundTransparency = 1,
-    OutlineColor = Color3.fromHex("#FFFFFF"),
-    OutlineThickness = 1,
-    Padding = UDim.new(0, 1)
+    Image = "eye",)
 })
 
 Slider(Tab1, "移动速度", 1, 600, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(a) 
@@ -350,14 +345,6 @@ Button(Tab10, "99夜[疑似可以伤害队友]", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/358545698555/roblox-/refs/heads/main%E5%8F%AF%E6%9D%80%E9%98%9F%E5%8F%8B99%E5%A4%9C"))()
 end)
 
-Button(Tab1, "皮炎汉化(无卡密)", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/358545698555/roblox-/refs/heads/main%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87"))()
-end)
-
-Button(Tab1, "静默破解[皮炎汉化]", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1eab6c39306f06abf61c13771da42bec95f5292d/%E9%9D%99%E9%BB%98"))()
-end)
-
 Button(Tab11, "笑川Ohio", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SUNXIAOCHUAN886/XiaoChuan/refs/heads/main/ohio.lua"))()
 end)
@@ -378,7 +365,7 @@ Tab8:Paragraph({
     Padding = UDim.new(0, 1)
 })
 
-Button(Tab2, "大功能提升 (用致命忍者)", function() 
+Button(Tab2, "大功能提升 (必须用致命忍者)", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SIONELTNAMATLASIA.lua"))()
 end)
 
@@ -397,3 +384,27 @@ Tab8:Paragraph({
     OutlineThickness = 1,
     Padding = UDim.new(0, 1)
 })
+
+Button(Tab12, "不知道 [英文]", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/who-else123/my-scripts/refs/heads/main/Syncsaken/main.lua"))()
+end)
+
+Button(Tab12, "Fartsaken [需要卡密]", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/Fartsaken.txt"))()
+end)
+
+Tab8:Paragraph({
+    Title = "1.4.1",
+    Desc = [[脚本进行了维护添加被遗弃]],
+    Image = "eye",
+    ImageSize = 24,
+    Color = Color3.fromHex("#FFFFFF"),
+    BackgroundTransparency = 1,
+    OutlineColor = Color3.fromHex("#FFFFFF"),
+    OutlineThickness = 1,
+    Padding = UDim.new(0, 1)
+})
+
+Button(Tab6, "NOL", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Syndromehsh/BETA2/refs/heads/main/NOL"))()
+end)
