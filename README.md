@@ -392,6 +392,7 @@ end)
 Button(Tab12, "Fartsaken [需要卡密]", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/Fartsaken.txt"))()
 end)
+
 Tab8:Paragraph({
     Title = "1.4.1",
     Desc = [[脚本进行了维护添加被遗弃]],
