@@ -350,14 +350,6 @@ Button(Tab10, "99夜[疑似可以伤害队友]", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/358545698555/roblox-/refs/heads/main%E5%8F%AF%E6%9D%80%E9%98%9F%E5%8F%8B99%E5%A4%9C"))()
 end)
 
-Button(Tab1, "皮炎汉化(无卡密)", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/358545698555/roblox-/refs/heads/main%E5%8A%9B%E9%87%8F%E4%BC%A0%E5%A5%87"))()
-end)
-
-Button(Tab1, "静默破解[皮炎汉化]", function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1eab6c39306f06abf61c13771da42bec95f5292d/%E9%9D%99%E9%BB%98"))()
-end)
-
 Button(Tab11, "笑川Ohio", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SUNXIAOCHUAN886/XiaoChuan/refs/heads/main/ohio.lua"))()
 end)
@@ -379,5 +371,21 @@ Tab8:Paragraph({
 })
 
 Button(Tab2, "大功能提升 (必须用致命忍者)", function() 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SIONELTNAMATLASIA.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/SIONELTNAMATLASIA.lua"))()
 end)
+
+Button(Tab2, "动作脚本", function() 
+   loadstring(game:HttpGet("https://arch-http.vercel.app/files/LIMITED EMOTE HUB (75-100) BY MIYKO"))()
+end)
+
+Tab8:Paragraph({
+    Title = "1.3.1.1",
+    Desc = [[脚本进行了维护最强添加一功能]],
+    Image = "eye",
+    ImageSize = 24,
+    Color = Color3.fromHex("#FFFFFF"),
+    BackgroundTransparency = 1,
+    OutlineColor = Color3.fromHex("#FFFFFF"),
+    OutlineThickness = 1,
+    Padding = UDim.new(0, 1)
+})
