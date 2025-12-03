@@ -68,6 +68,7 @@ local Tab3 = Tab("死铁轨")
 local Tab9 = Tab("自然灾害")
 local Tab10 = Tab("99页")
 local Tab11 = Tab("Ohio")
+local Tab12 = Tab("被遗弃")
 
 Taba:Paragraph({
     Title = "当前用户：",
@@ -141,13 +142,7 @@ Taba:Paragraph({
 Taba:Paragraph({
     Title = "禁止二创",
     Desc = [[ ]],
-    Image = "eye",
-    ImageSize = 24,
-    Color = Color3.fromHex("#FFFFFF"),
-    BackgroundTransparency = 1,
-    OutlineColor = Color3.fromHex("#FFFFFF"),
-    OutlineThickness = 1,
-    Padding = UDim.new(0, 1)
+    Image = "eye",)
 })
 
 Slider(Tab1, "移动速度", 1, 600, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(a) 
@@ -334,6 +329,14 @@ Button(Tab6, "皮空脚本二", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/c43cc7847ac9846287fad439930ac41b2d65dbe0/%E7%9A%AE%E7%A9%BA%E8%84%9A%E6%9C%AC(%E4%BA%8C)"))()
 end)
 
+Button(Tab6, "皮空脚本", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
+end)
+
+Button(Tab6, "皮空脚本二", function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/c43cc7847ac9846287fad439930ac41b2d65dbe0/%E7%9A%AE%E7%A9%BA%E8%84%9A%E6%9C%AC(%E4%BA%8C)"))()
+end)
+
 Button(Tab10, "op级99夜(中文)", function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/hdjsjjdgrhj/script-hub/refs/heads/main/99Nights"))()
 end)
@@ -389,3 +392,20 @@ Tab8:Paragraph({
     OutlineThickness = 1,
     Padding = UDim.new(0, 1)
 })
+
+Tab12:Paragraph({
+    Title = "等待",
+    Desc = [[等待]],
+    Image = "eye",
+    ImageSize = 24,
+    Color = Color3.fromHex("#FFFFFF"),
+    BackgroundTransparency = 1,
+    OutlineColor = Color3.fromHex("#FFFFFF"),
+    OutlineThickness = 1,
+    Padding = UDim.new(0, 1)
+})
+
+Button(Tab6, "NOL [破解]", function（） 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Syndromehsh/BETA2/refs/heads/main/NOL"))()
+end)
