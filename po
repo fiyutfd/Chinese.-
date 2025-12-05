@@ -263,6 +263,15 @@ local Button = Tab:Button({
 })
 
 local Button = Tab:Button({
+    Title = "各种自动技能",
+    Desc = "英文",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://pastefy.app/UY1oh6PG/raw"))()
+    end
+})
+
+local Button = Tab:Button({
     Title = "火车头",
     Desc = "",
     Locked = false,
