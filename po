@@ -68,14 +68,19 @@ Window:Tag({
         Color = Color3.fromHex("#000000")
     })
 
-
 WindUI:Notify({
-    Title = "Chinese脚本通知",
-    Content = "Chinese脚本禁止倒卖",
+    Title = "Chinese脚本已加载",
+    Content = "Chinese脚本提示",
     Duration = 10, -- 10 seconds
     Icon = "bird",
 })
 
+WindUI:Notify({
+    Title = "",
+    Content = "Chinese脚本禁止倒卖",
+    Duration = 10, -- 10 seconds
+    Icon = "bird",
+})
 
 local Tab = Window:Tab({
     Title = "Chinese脚本公告",
