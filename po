@@ -33,7 +33,7 @@ local Window = WindUI:CreateWindow({
     -- !  ↓  if you DON'T need the key system
     KeySystem = { 
         -- ↓ Optional. You can remove it.
-        Key = { "Chinese牛逼", "Chinese脚本MB" },
+        Key = { "Chinese牛逼", "Chinese脚本MB","114514" },
         
         Note = "请输入你的卡密.",
         
