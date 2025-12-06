@@ -33,9 +33,9 @@ local Window = WindUI:CreateWindow({
     -- !  ↓  if you DON'T need the key system
     KeySystem = { 
         -- ↓ Optional. You can remove it.
-        Key = { "Chinese牛逼", "Chinese脚本MB", "114514", },
+        Key = { "Chinese牛逼", "Chinese脚本MB", "114514" },
         
-        Note = "请输入卡密.",
+        Note = "请输入你的卡密.",
         
         -- ↓ Optional. You can remove it.
         Thumbnail = {
@@ -55,7 +55,7 @@ local Window = WindUI:CreateWindow({
 })
             
 Window:Tag({
-    Title = "v1.4",
+    Title = "v1.4.3",
     Color = Color3.fromHex("#30ff6a")
 })
 
@@ -232,6 +232,12 @@ local Tab = Tabs.Settings:Tab({
     Locked = false,
 })
 
+local Section = Tab:Section({ 
+    Title = "最坚强战场",
+    TextXAlignment = "Left",
+    TextSize = 17, -- Default Size
+})
+
 local Button = Tab:Button({
     Title = "金身",
     Desc = "就是一个动作",
@@ -349,12 +355,6 @@ local Tab = Tabs.Main:Tab(
     Locked = false,
 })
 
-local Section = Tab:Main({ 
-    Title = "客户端",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
-})
-
 local Button = Tab:Button({
     Title = "不知道",
     Desc = "",
@@ -381,13 +381,7 @@ local Tab = Tabs.Settings:Tab({
     Locked = false,
 })
 
-local Section = Tab:Section({ 
-    Title = "自然灾害",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
-})
-
-local Button = Tab:Button({
+ocal Button = Tab:Button({
     Title = "v1",
     Desc = "",
     Locked = false,
