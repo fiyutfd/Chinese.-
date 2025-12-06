@@ -288,6 +288,12 @@ local Tab = Tabs.Main:Tab({
     Locked = false,
 })
 
+local Section = Tab:Main({ 
+    Title = "各大脚本中心",
+    TextXAlignment = "Left",
+    TextSize = 17, -- Default Size
+})
+
 local Button = Tab:Button({
     Title = "KG脚本",
     Desc = "",
@@ -313,6 +319,74 @@ local Button = Tab:Button({
     Locked = false,
     Callback = function()
         loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\120\105\97\110\105\110\103\49\53\49\47\83\78\72\85\66\47\109\97\105\110\47\83\78\104\117\98\46\108\117\97\34\41\41\40\41")()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "某黄脚本 [卡密:皮空脚本牛逼]",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xiaokong6/x1/refs/heads/main/黄某脚本加载器"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "安脚本中心",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/wucan114514/gegeyxjb/main/oww')))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "不知道脚本中心",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(utf8.char((function() return table.unpack({108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,40,34,104,116,116,112,115,58,47,47,114,97,119,46,103,105,116,104,117,98,117,115,101,114,99,111,110,116,101,110,116,46,99,111,109,47,67,104,105,110,97,81,89,47,45,47,109,97,105,110,47,37,69,54,37,56,51,37,56,53,37,69,52,37,66,65,37,57,49,34,41,41,40,41})end)()))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "皮空脚本",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
+    end
+})
+
+Window:SelectTab(2) -- Number of Tab
+
+local Tab = Tabs.Main:Tab({
+    Title = "客户端",
+    Icon = "layout-grid",
+    Locked = false,
+})
+
+local Section = Tab:Main({ 
+    Title = "客户端",
+    TextXAlignment = "Left",
+    TextSize = 17, -- Default Size
+})
+
+local Button = Tab:Button({
+    Title = "不知道",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "封禁锤",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ban-hammer-v0-47112"))()
     end
 })
 
