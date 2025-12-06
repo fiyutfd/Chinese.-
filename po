@@ -94,7 +94,6 @@ local Paragraph = Tab:Paragraph({
 
 local Tabs = {
     Main = Window:Section({ Title = "通用", Opened = true }),
-    Salq = Window:Section({ Title = "各大脚本", Opened = true }),    
     Settings = Window:Section({ Title = "服务器", Opened = true }),
     Utilities = Window:Section({ Title = "设置", Opened = true })
 }
@@ -278,11 +277,41 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletfan2007/
 
 Window:SelectTab(2) -- Number of Tab
 
-local Tab = Tabs.Salq:Tab({
+local Tab = Tabs.Main:Tab({
     Title = "各大脚本中心",
     Icon = "layout-grid",
     Locked = false,
 })
+
+local Button = Tab:Button({
+    Title = "KG脚本",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        KG_SCRIPT = "张硕制作"
+loadstring(game:HttpGet("https://github.com/ZS-NB/KG/raw/main/Zhang-Shuo.lua"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "混脚本",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/wocaonima/main/sikon.txt"))()
+    end
+})
+
+local Button = Tab:Button({
+    Title = "SN脚本中心",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\120\105\97\110\105\110\103\49\53\49\47\83\78\72\85\66\47\109\97\105\110\47\83\78\104\117\98\46\108\117\97\34\41\41\40\41")()
+    end
+})
+
+Window:SelectTab(2) -- Number of Tab
 
 local Tab = Tabs.Settings:Tab({
     Title = "自然灾害",
