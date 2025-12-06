@@ -201,13 +201,6 @@ local Tab = Tabs.Settings:Tab({
     Locked = false,
 })
 
-local Paragraph = Tab:Paragraph({
-    Title = "脚本",
-    Desc = "被遗弃",
-    Thumbnail = "rbxassetid://98451503406596",
-    ThumbnailSize = 200,
-})
-
 local Section = Tab:Section({ 
     Title = "被遗弃",
     TextXAlignment = "Left",
@@ -238,13 +231,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "最强战场",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Paragraph = Tab:Paragraph({
-    Title = "脚本",
-    Desc = "最强战场",
-    Thumbnail = "rbxassetid://90567602122435",
-    ThumbnailSize = 200,
 })
 
 local Section = Tab:Section({ 
@@ -302,13 +288,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "自然灾害",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Paragraph = Tab:Paragraph({
-    Title = "脚本",
-    Desc = "自然灾害",
-    Thumbnail = "rbxassetid://83819521808939",
-    ThumbnailSize = 200,
 })
 
 local Section = Tab:Section({ 
