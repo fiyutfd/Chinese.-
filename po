@@ -199,12 +199,6 @@ local Button = Tab:Button({
 
 Window:SelectTab(2) -- Number of Tab
 
-local Tab = Tabs.Settings:Tab({
-    Title = "被遗弃",
-    Icon = "layout-grid",
-    Locked = false,
-})
-
 local Section = Tab:Section({ 
     Title = "被遗弃",
     TextXAlignment = "Left",
@@ -235,12 +229,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "最强战场",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Section = Tab:Section({ 
-    Title = "最坚强战场",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
 })
 
 local Button = Tab:Button({
@@ -286,6 +274,12 @@ local Tab = Tabs.Main:Tab({
     Title = "各大脚本中心",
     Icon = "layout-grid",
     Locked = false,
+})
+
+local Section = Tab:Main({ 
+    Title = "各大脚本中心",
+    TextXAlignment = "Left",
+    TextSize = 17, -- Default Size
 })
 
 local Button = Tab:Button({
@@ -360,12 +354,6 @@ local Tab = Tabs.Main:Tab({
     Locked = false,
 })
 
-local Section = Tab:Main({ 
-    Title = "客户端",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
-})
-
 local Button = Tab:Button({
     Title = "不知道",
     Desc = "",
@@ -390,12 +378,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "自然灾害",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Section = Tab:Section({ 
-    Title = "自然灾害",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
 })
 
 local Button = Tab:Button({
