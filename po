@@ -2,7 +2,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 
 local Window = WindUI:CreateWindow({
-        Title = "Chinese脚本<font color='#00FF00'>1.4.,3</font>  ",
+        Title = "Chinese脚本<font color='#00FF00'>1.4.3</font>  ",
         Icon = "rbxassetid://4483362748",
         IconTransparency = 0.5,
         IconThemed = true,
@@ -35,7 +35,7 @@ local Window = WindUI:CreateWindow({
         -- ↓ Optional. You can remove it.
         Key = { "Chinese牛逼", "Chinese脚本MB", "114514" },
         
-        Note = "请输入你的卡密.",
+        Note = "请输入免费卡密.",
         
         -- ↓ Optional. You can remove it.
         Thumbnail = {
@@ -55,7 +55,7 @@ local Window = WindUI:CreateWindow({
 })
             
 Window:Tag({
-    Title = "v1.4.3",
+    Title = "v1.4",
     Color = Color3.fromHex("#30ff6a")
 })
 
@@ -200,12 +200,6 @@ local Tab = Tabs.Settings:Tab({
     Locked = false,
 })
 
-local Section = Tab:Section({ 
-    Title = "被遗弃",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
-})
-
 local Button = Tab:Button({
     Title = "XK",
     Desc = "无卡密中文",
@@ -230,12 +224,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "最强战场",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Section = Tab:Section({ 
-    Title = "最坚强战场",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
 })
 
 local Button = Tab:Button({
@@ -312,7 +300,7 @@ local Button = Tab:Button({
 })
 
 local Button = Tab:Button({
-    Title = "某黄脚本 [卡密:皮空脚本牛逼]",
+    Title = "某黄脚本",
     Desc = "",
     Locked = false,
     Callback = function()
@@ -338,18 +326,9 @@ local Button = Tab:Button({
     end
 })
 
-local Button = Tab:Button({
-    Title = "皮空脚本",
-    Desc = "",
-    Locked = false,
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/smalldesikon/vv/1647f5471c89de3fba6b2f7d783173a4d51a2f54/%E5%8D%A1%E5%AF%86%E7%B3%BB%E7%BB%9F.lua"))()
-    end
-})
-
 Window:SelectTab(2) -- Number of Tab
 
-local Tab = Tabs.Main:Tab(
+local Tab = Tabs.Main:Tab({
     Title = "客户端",
     Icon = "layout-grid",
     Locked = false,
@@ -373,7 +352,7 @@ local Button = Tab:Button({
     end
 })
 
-Window:SelectTab(2) -- Number of Tab
+Window:SelectTab(2) -- Number of 
 
 local Tab = Tabs.Settings:Tab({
     Title = "自然灾害",
@@ -381,7 +360,7 @@ local Tab = Tabs.Settings:Tab({
     Locked = false,
 })
 
-ocal Button = Tab:Button({
+local Button = Tab:Button({
     Title = "v1",
     Desc = "",
     Locked = false,
