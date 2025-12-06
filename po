@@ -35,7 +35,7 @@ local Window = WindUI:CreateWindow({
         -- ↓ Optional. You can remove it.
         Key = { "Chinese牛逼", "Chinese脚本MB", "114514", },
         
-        Note = "请输入你的卡密.",
+        Note = "请输入卡密.",
         
         -- ↓ Optional. You can remove it.
         Thumbnail = {
@@ -230,12 +230,6 @@ local Tab = Tabs.Settings:Tab({
     Title = "最强战场",
     Icon = "layout-grid",
     Locked = false,
-})
-
-local Section = Tab:Section({ 
-    Title = "最坚强战场",
-    TextXAlignment = "Left",
-    TextSize = 17, -- Default Size
 })
 
 local Button = Tab:Button({
