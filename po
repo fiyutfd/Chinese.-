@@ -20,7 +20,7 @@ local Window = WindUI:CreateWindow({
     --]]
     
     -- ↓ Optional. You can remove it.
-    Size = UDim2.fromOffset(400, 300),
+    Size = UDim2.fromOffset(200, 100),
         Transparent = true,
         Theme = "Light",
         User = {
