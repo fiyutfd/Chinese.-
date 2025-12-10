@@ -92,6 +92,15 @@ local Paragraph = Tab:Paragraph({
     ThumbnailSize = 0,
 })
 
+local Paragraph = Tab:Paragraph({
+    Title = "加速器问题已处理",
+    Desc = "QQ群主群1042052883 ",
+    Image = "",
+    ImageSize = 42,
+    Thumbnail = "",
+    ThumbnailSize = 0,
+})
+
 local Tabs = {
     Main = Window:Section({ Title = "通用", Opened = true }),
     Settings = Window:Section({ Title = "服务器", Opened = true }),
@@ -352,6 +361,15 @@ local Button = Tab:Button({
     end
 })
 
+local Button = Tab:Button({
+    Title = "1×1×1×1",
+    Desc = "",
+    Locked = false,
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-1x1x1x1-lord-by-White-Hat-71150"))()
+    end
+})
+
 Window:SelectTab(2) -- Number of 
 
 local Tab = Tabs.Settings:Tab({
@@ -371,7 +389,7 @@ local Button = Tab:Button({
 
 local Button = Tab:Button({
     Title = "v2",
-    Desc = "",
+    Desc = = "",
     Locked = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/%E7%A3%81%E9%93%81%E9%BB%91%E6%B4%9EV2.txt"))()
