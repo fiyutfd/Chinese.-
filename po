@@ -92,15 +92,6 @@ local Paragraph = Tab:Paragraph({
     ThumbnailSize = 0,
 })
 
-local Paragraph = Tab:Paragraph({
-    Title = "加速器问题已处理",
-    Desc = "QQ群主群1042052883 ",
-    Image = "",
-    ImageSize = 42,
-    Thumbnail = "",
-    ThumbnailSize = 0,
-})
-
 local Tabs = {
     Main = Window:Section({ Title = "通用", Opened = true }),
     Settings = Window:Section({ Title = "服务器", Opened = true }),
