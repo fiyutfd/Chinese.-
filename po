@@ -3,7 +3,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 local Window = WindUI:CreateWindow({
         Title = "Chinese脚本<font color='#00FF00'>1.4.3</font>  ",
-        Icon = "rbxassetid://4483362748",
+        Icon = "rbxassetid://12842279420",
         IconTransparency = 0.5,
         IconThemed = true,
         Author = "作者:Chinese",
@@ -20,7 +20,7 @@ local Window = WindUI:CreateWindow({
     --]]
     
     -- ↓ Optional. You can remove it.
-    Size = UDim2.fromOffset(200, 100),
+    Size = UDim2.fromOffset(100, 50),
         Transparent = true,
         Theme = "Light",
         User = {
@@ -352,15 +352,6 @@ local Button = Tab:Button({
     end
 })
 
-local Button = Tab:Button({
-    Title = "1×1×1×1",
-    Desc = "",
-    Locked = false,
-    Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-1x1x1x1-lord-by-White-Hat-71150"))()
-    end
-})
-
 Window:SelectTab(2) -- Number of 
 
 local Tab = Tabs.Settings:Tab({
@@ -380,7 +371,7 @@ local Button = Tab:Button({
 
 local Button = Tab:Button({
     Title = "v2",
-    Desc = = "",
+    Desc = "",
     Locked = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ke9460394-dot/ugik/refs/heads/main/%E7%A3%81%E9%93%81%E9%BB%91%E6%B4%9EV2.txt"))()
