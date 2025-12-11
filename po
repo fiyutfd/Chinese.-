@@ -3,7 +3,7 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 
 local Window = WindUI:CreateWindow({
         Title = "Chinese脚本<font color='#00FF00'>1.4.3</font>  ",
-        Icon = "rbxassetid://12842279420",
+        Icon = "rbxassetid://4483362748",
         IconTransparency = 0.5,
         IconThemed = true,
         Author = "作者:Chinese",
@@ -20,7 +20,7 @@ local Window = WindUI:CreateWindow({
     --]]
     
     -- ↓ Optional. You can remove it.
-    Size = UDim2.fromOffset(100, 50),
+    Size = UDim2.fromOffset(50, 30),
         Transparent = true,
         Theme = "Light",
         User = {
